@@ -64,7 +64,7 @@ public class Lista {
         throw new Exception("El elemento no se encuentra en la lista");
     }
 
-    private Object buscarDato(int indice) throws Exception {
+    public Object buscarDato(int indice) throws Exception {
         Nodo objetivo = buscar(indice);
         return objetivo.getDato();
     }
