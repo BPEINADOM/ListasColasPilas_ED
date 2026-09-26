@@ -9,6 +9,18 @@ public class Nodo {
 
     }
 
+    public Object getDato() {
+        return dato;
+    }  
+
+    public Nodo getIzquierda() {
+        return izquierda;
+    }
+
+    public Nodo getDerecha() {
+        return derecha;
+    }
+
     public Nodo(Object dato) {
         this.dato = dato;
     }
