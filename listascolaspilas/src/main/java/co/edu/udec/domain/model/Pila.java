@@ -41,10 +41,10 @@ public class Pila {
         }
 
         Object dato = cima.getDato();
-        cima = cima.getIzquierda();
+        cima = cima.getDerecha();
 
         if (cima != null) {
-            cima.setDerecha(null);
+            cima.setIzquierda(null);
         }
 
         --cuenta;
